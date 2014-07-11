@@ -36,7 +36,7 @@ io.on('connection', function (socket){
   //...
 ```
 
-Now, we want to let our users know who's online and who isn't, so let's broadcast a list of online users everytime a connection is started or ended. 
+Now, we want to let our users know who's online and who isn't, so let's broadcast a list of online users every time a connection is started or ended. 
 
 ```javascript
 io.on('connection', function (socket){
@@ -91,9 +91,9 @@ socket.on('message', function(msg){
 });
 ```
 
-That's it. 
+That's it. Just open a few tabs and play around by sending messages to specific users. Cool, huh? If you didn't follow along, not to worry, you can get the full source [here][repo].
 
 
 [ll]: http://www.lighthouselabs.ca/
-[so1]: http://stackoverflow.com/questions/4118272/do-websockets-allow-for-p2p-browser-to-browser-communication
 [socketIO]: http://socket.io/get-started/chat/
+[repo]: https://github.com/JamieWoodbury/simple-p2p-websockets
